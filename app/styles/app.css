@@ -1,0 +1,10 @@
+#target {
+  border: 1px red solid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+p {
+  background: black;
+  color: yellow;
+}
