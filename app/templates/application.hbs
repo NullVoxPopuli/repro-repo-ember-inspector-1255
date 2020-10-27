@@ -1,4 +1,10 @@
 <div id="target"></div>
 
 
-<RenderInTarget />
+<RenderInTarget @id="target">
+  within the application template
+</RenderInTarget>
+
+<RenderInTarget @id="body-child-target">
+  rendering outside of the application template
+</RenderInTarget>

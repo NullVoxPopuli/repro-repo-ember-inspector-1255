@@ -1,7 +1,8 @@
 {{#-in-element this.element}}
 
   <p>
-    this text is in the target div
+    this text is portaled to: #{{@id}}.<br>
+    {{yield}}
   </p>
 
   <NestedComponent />
